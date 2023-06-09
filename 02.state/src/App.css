@@ -1,0 +1,21 @@
+.card{
+border: 1px solid #000;
+width: 200px;
+height: 200px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 10px;
+}
+.cards{
+  flex-wrap: wrap;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  text-align: center;
+  color: red;
+}
